@@ -53,7 +53,7 @@
   text-align: center;
   margin: 0 auto;
 }
-.features-list.list {
+.features-list {
   flex-direction: column;
   gap: 72px;
 }
@@ -63,7 +63,7 @@
 .examples {
   display: none;
 }
-.team-list.list {
+.team-list {
   flex-wrap: wrap;
   justify-content: center;
   gap: 72px;

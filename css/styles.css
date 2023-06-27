@@ -1016,3 +1016,8 @@ p {
 .modal-input:focus {
   border-color: #4d5ae5;
 }
+@media screen and (max-width: 428px) {
+  .modal {
+      width: calc(100% - 18px);
+  }
+}
