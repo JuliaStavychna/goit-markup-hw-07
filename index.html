@@ -10,6 +10,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="./css/mobile.css"
+      media="screen and (max-width: 767.9px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/tablet.css"
+      media="screen and (min-width:768px) and (max-width:1157.9px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/desktop.css"
+      media="screen and (min-width:1158px)"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -62,6 +77,11 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="mobile-menu-button js-open-menu">
+          <svg class="mobile-menu-svg" width="32" height="22">
+            <use href="./images/icons.svg#mobile-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -139,28 +159,53 @@
           <h2 class="examples-title">What are we doing</h2>
           <ul class="examples-list list">
             <li class="examples-item">
-              <img
-                src="./images/img.jpg"
-                alt="website-development"
-                width="356"
-                height="300"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/homepage/examples/img1@x1.webp 1x,
+                    ./images/homepage/examples/img1@x2.webp 2x
+                  "
+                  type="image/webp "
+                />
+                <source
+                  srcset="
+                    ./images/homepage/examples/img1@x1.jpg 1x,
+                    ./images/homepage/examples/img1@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/img.jpg"
+                  alt="website-development"
+                  width="356"
+                  height="300"
+                  loading="lazy"
+                />
+              </picture>
             </li>
             <li class="examples-item">
+              <picture>
+                <source srcset="./images/homepage/examples/img2@x1.webp 1x, ./images/webstudio/examples/img2@x2.webp 2x" type="image/webp">
+                <source srcset="./images/homepage/examples/img2@x1.jpg 1x, ./images/webstudio/examples/img2@x2.jpg 2x" type="image/jpeg">
               <img
                 src="./images/img2.jpg"
                 alt="apps-development"
                 width="356"
                 height="300"
-              />
+                loading="lazy">
+              </picture>
             </li>
             <li class="examples-item">
+              <picture>
+                <source srcset="./images/homepage/examples/img3@x1.webp 1x, ./images/webstudio/examples/img3@x2.webp 2x" type="image/webp">
+                <source srcset="./images/homepage/examples/img3@x1.jpg 1x, ./images/webstudio/examples/img3@x2.jpg 2x" type="image/jpeg">
               <img
                 src="./images/img3.jpg"
                 alt="content-creation"
                 width="356"
                 height="300"
-              />
+                loading="lazy">
+              </picture>
             </li>
           </ul>
         </div>
