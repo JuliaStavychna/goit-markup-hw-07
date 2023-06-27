@@ -190,6 +190,9 @@
   flex-direction: column;
   gap: 40px;
 }
+.contacts-wrapper .footer-social-list {
+    justify-content: space-between;
+}
 .mobile-navigation-link {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
