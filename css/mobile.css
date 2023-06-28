@@ -259,3 +259,12 @@ color:#434455;
   .mobile-menu-svg {
 fill: #2e2f42
   }
+  .mobile-menu-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    height: 22px;
+}
+.mobile-menu-svg {
+  stroke: #2E2F42;
+}
