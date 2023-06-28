@@ -164,6 +164,7 @@
 }
 .menu-navigation-list-item {
 color:#434455;
+text-decoration: none;
 }
 .menu-cont-info {
     font-style: normal;
@@ -203,6 +204,7 @@ color:#434455;
     display: inline-block;
     color: #434455;
     margin-bottom: 40px;
+    text-decoration: none;
 }
 .contact-info-mail {
   display: block;
@@ -219,6 +221,7 @@ color:#434455;
 .contact-info-tel {
   display: inline-block;
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -227,6 +230,7 @@ color:#434455;
 }
 .contact-info-mail {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
