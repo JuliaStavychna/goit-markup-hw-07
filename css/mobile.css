@@ -167,6 +167,12 @@
 color:#434455;
 text-decoration: none;
 }
+.mobile-navigation-link {
+  text-decoration: none;
+}
+.mobile-navigation-link.active {
+  color:#404bbf;
+}
 .menu-cont-info {
     font-style: normal;
 }
@@ -254,6 +260,7 @@ text-decoration: none;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  color:#2E2F42;
 }
 .link {
     text-decoration: none;
