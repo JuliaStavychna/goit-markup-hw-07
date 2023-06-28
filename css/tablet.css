@@ -50,6 +50,20 @@
   border-radius: 2px;
   bottom: -1px;
 }
+.address-list {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.04em;
+    }
+    .address-contact {
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
 .address-item:not(:last-child) {
   margin-bottom: 12px;
 }
