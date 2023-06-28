@@ -60,10 +60,6 @@
   line-height: 14px;
   letter-spacing: 0.04em;
 }
-.address-contact {
-  margin-top: 6px;
-  margin-bottom: 6px;
-}
 .address-item:not(:last-child) {
   margin-bottom: 12px;
 }
