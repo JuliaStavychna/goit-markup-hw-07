@@ -61,6 +61,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 72px;
 }
 .features-list .features-item {
     width: 100%;
@@ -137,9 +138,6 @@
 .form-input {
     min-width: 398px;
     opacity: 0.3;
-}
-.footer-send-container {
-  width: 100%;
 }
 
 /* MENU */ /* MENU */ /* MENU */ /* MENU */
